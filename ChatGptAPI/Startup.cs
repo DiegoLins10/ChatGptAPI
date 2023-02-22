@@ -1,3 +1,4 @@
+using ChatGptAPI.Controllers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,7 +27,7 @@ namespace ChatGptAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddHttpClient<EnglishTutorController>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

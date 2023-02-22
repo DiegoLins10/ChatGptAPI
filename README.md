@@ -7,3 +7,7 @@ Integrando a API do chatGPT em uma API ASP NET CORE para enviar pacotes com fras
 - SWAGGER
 
 referencia: https://platform.openai.com/docs/api-reference/introduction
+
+## Exemplo
+
+![](https://github.com/DiegoLins10/ChatGptAPI/blob/master/chatgpt.png)
